@@ -691,7 +691,7 @@ a:hover {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: black;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -710,14 +710,14 @@ a:hover {
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #4e4e4e;
+  color: white;
 }
 
-.navbar-mobile a:hover,
+/* .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
   color: #0078ff;
-}
+} */
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -785,8 +785,10 @@ a:hover {
 
 .hero .hero-title {
   color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
+  /* font-weight: 600; */
+  display: inline-block;
+  /* line-height: 1; */
+  font-size: rem;
 }
 
 @media (min-width: 768px) {
@@ -1249,7 +1251,7 @@ a:hover {
 }
 
 .contact-1 p {
-  padding: 0;
+  /* padding: 0; */
   color: #fff;
   line-height: 24px;
   font-size: 15px;
